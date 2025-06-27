@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+/*Not sure i did the links correctly*/
 * {
   padding: 0;
   margin: 0;
@@ -80,716 +83,102 @@ body {
   font-family: 'Raleway Dots', sans-serif;
 }
 
-/* DID word */
-
-.didDLetter {
+.didDLetter, .developerETwoLetter, .developerEThreeLetter, .takeELetter, .upULetter, .becauseCLetter, .theyTLetter, .wantedNLetter, .wantedDLetter, .gardeningELetter, .rootOLetter, .skillsSTwoLetter {
   font-size: 72px;
   font-weight: bold;
-  color: rgb(182, 19, 19);
+  color: red;
   text-decoration: underline;
   text-transform: lowercase;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.didILetter {
-  font-size: 72px;
-  font-weight: normal;
-  color: rgb(62, 243, 101);
-  text-decoration: line-through;
-  text-transform: lowercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.frontendNLetter, .developerELetter, .developerLLetter, .developerPLetter, .gardeningALetter, .gardeningILetter, .gardeningGTwoLetter, .becauseSLetter, .wantedALetter, .improveVLetter, .theirELetter, .skillsKLetter, .skillsLTwoLetter, .exclamation-mark {
+  font-size: 80px;
+  font-weight: 140;
+  color: rgb(86, 11, 207);
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.didDTwoLetter {
-  font-size: 92px;
-  font-weight:  400px;
-  color: rgb(182, 235, 37);
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.frontendOLetter, .frontendNTwoLetter, .developerDLetter, .becauseBLetter, .becauseELetter, .becauseULetter, .upPLetter, .takeTLetter, .takeALetter, .toOLetter, .improveILetter, .improvePLetter, .improveELetter, .rootRLetter, .skillsILetter, .wantedWLetter, .theyELetter, .question-mark {
+  font-size: 64px;
+  font-weight: 130;
+  color: rgb(202, 247, 5);
+  text-decoration-line: line-through;
+  text-transform: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/* THE word */
-
 .theTLetter {
   font-size: 50px;
-  font-weight:  700px;
+  font-weight: 700;
   color: rgb(184, 120, 26);
   text-decoration: aquamarine;
   text-transform: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.theHLetter {
+.gardeningILetter, .gardeningALetter, .gardeningGTwoLetter, .becauseALetter, .theHLetter {
   font-size: 80px;
-  font-weight:  300px;
-  color: rgb(20, 142, 146);
-  text-decoration: wavy;
+  font-weight: 140;
+  color: aqua;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.becauseETwoLetter, .gardeningGLetter, .theirTLetter, .theirRLetter, .improveRLetter, .skillsLLetter {
+  font-size: 20px;
+  font-weight: 150;
+  color: rgb(63, 16, 4);
+  text-decoration: overline;
+  text-transform: none;
+  font-family: fantasy;
+}
+.theHLetter, .theELetter, .didILetter, .gardeningDLetter {  /* My brain is boiling */
+  font-size: 66px;
+  font-weight: bold;
+  color: rgb(128, 0, 128);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+}
+.frontendFLetter, .hyphen, .frontendDLetter , .takeKLetter , .gardeningRLetter {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(7, 59, 59);
+  text-decoration: dashed;
   text-transform: capitalize;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.theELetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-  font-size: 72px;
-  font-weight:  500px;
-  color: rgb(235, 37, 37);
-  text-decoration: wavy;
-  text-transform: lowercase;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.frontendRLetter {
-  font-size: 72px;
-  font-weight:  900px;
-  color: rgb(182, 235, 37);
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.frontendOLetter {
-  font-size: 64px;
-  font-weight:  150px;
-  color: rgb(219, 69, 31);
-  text-decoration: wavy;
-  text-transform: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.frontendNLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
+.frontendRLetter, .developerVLetter, .frontendELetter , .improveMLetter, .theyHLetter, .wantedTLetter {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(255, 20, 147);
+  text-decoration: wavy underline;
+  text-transform: none;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.frontendTLetter, .didDTwoLetter, .developerRLetter, .developerOLetter, .gardeningNLetter, .gardeningNTwoLetter{
+  font-size: 100px;
+  font-weight: 800;
+  color: rgb(34, 139, 34);
+  text-decoration: double;
   text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Arial Black', Gadget, sans-serif;
 }
-
-.frontendTLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.frontendELetter {
-  font-size: 54px;
-  font-weight:  120px;
-  color: rgb(219, 69, 31);
-  text-decoration-thickness: thick;
-  text-transform: unset;
-  font-family: cursive;
-}
-
-.frontendNTwoLetter {
-  font-size: 28px;
-  font-weight:  30px;
-  color: rgb(219, 69, 31);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.frontendDLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-  font-size: 28px;
-  font-weight:  30px;
-  color: rgb(219, 69, 31);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.developerELetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
+.wantedELetter, .toTLetter, .theirHLetter, .theirILetter, .rootOTwoLetter, .theyYLetter{
+  font-size: 160px;
+  font-weight: 900;
+  color: rgb(245, 241, 10);
+  text-decoration: double;
   text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.developerVLetter {
-  font-size: 80px;
-  font-weight:  300px;
-  color: rgb(20, 142, 146);
-  text-decoration: wavy;
-  text-transform: capitalize;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.developerETwoLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.developerLLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.developerOLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.developerPLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.developerEThreeLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.developerRLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* TAKE word */
-
-.takeTLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.takeALetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.takeKLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
+.improveOLetter, .rootTLetter, .skillsSLetter{
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(10, 131, 245);
+  text-decoration: double;
   text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.takeELetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* UP word */
-
-.upULetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.upPLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.gardeningALetter {font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.gardeningRLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.gardeningDLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.gardeningELetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.gardeningNLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.gardeningILetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.gardeningNTwoLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.gardeningGTwoLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.becauseELetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.becauseCLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.becauseALetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.becauseULetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.becauseSLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.becauseETwoLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-
-/* THEY word */
-
-.theyTLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.theyHLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.theyELetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.theyYLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.wantedALetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.wantedNLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.wantedTLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.wantedELetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.wantedDLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* TO word */
-
-.toTLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.toOLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.improveMLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.improvePLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.improveRLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.improveOLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.improveVLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.improveELetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* THEIR word */
-
-.theirTLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.theirHLetter {
-  font-size: 54px;
-  font-weight:  120px;
-  color: rgb(219, 69, 31);
-  text-decoration-thickness: thick;
-  text-transform: unset;
-  font-family: cursive;
-}
-.theirELetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.theirILetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.theirRLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-
-/* ROOT word */
-
-.rootRLetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.rootOLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.rootOTwoLetter {
-  font-size: 54px;
-  font-weight:  120px;
-  color: rgb(219, 69, 31);
-  text-decoration-thickness: thick;
-  text-transform: unset;
-  font-family: cursive;
-}
-.rootTLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.skillsKLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.skillsILetter {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.skillsLLetter {
-  font-size: 20px;
-  font-weight:  150px;
-  color: rgb(63, 16, 4);
-  text-decoration: overline;
-  text-transform: none;
-  font-family: fantasy;
-}
-.skillsLTwoLetter {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.skillsSTwoLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: rgb(182, 19, 19);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* SYMBOLS */
-
-.hyphen {
-  font-size: 120px;
-  font-weight:  400px;
-  color: rgb(245, 70, 201);
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.exclamation-mark {
-  font-size: 80px;
-  font-weight:  140px;
-  color: rgb(86, 11, 207);
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.question-mark {
-  font-size: 64px;
-  font-weight:  130px;
-  color: rgb(202, 247, 5);
-  text-decoration-line: line-through;
-  text-transform: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
